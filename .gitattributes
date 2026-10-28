@@ -1,0 +1,10 @@
+﻿# Normalize line endings so clones on any OS match the published tree.
+* text=auto eol=lf
+*.md   text eol=lf
+*.js   text eol=lf
+*.mjs  text eol=lf
+*.json text eol=lf
+*.yml  text eol=lf
+*.svg  text eol=lf
+*.cmd  text eol=crlf
+*.bat  text eol=crlf

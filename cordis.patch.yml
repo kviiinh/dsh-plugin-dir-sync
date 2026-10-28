@@ -1,0 +1,6 @@
+# Bundle layer for dsh-plugin-dir-sync: one row, so installing this package is
+# all it takes to compose the plugin (no hand-edited profile patch needed).
+# The row id is the loader identity; the package name is what Node resolves.
+- insert:
+    - id: dsh-dir-sync
+      name: 'dsh-plugin-dir-sync'

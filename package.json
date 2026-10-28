@@ -1,0 +1,40 @@
+{
+  "name": "dsh-plugin-dir-sync",
+  "version": "1.0.0",
+  "description": "DSH 目录定时同步：按 cron 定时把源目录整个复制到目标目录，最多 30 条规则、逐条开关，侧边栏底部的「立即同步」按钮左侧紧邻重启按钮。",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "cordis-plugin",
+    "sync",
+    "backup",
+    "cron"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}

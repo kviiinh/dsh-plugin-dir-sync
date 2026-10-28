@@ -1,0 +1,5 @@
+﻿node_modules/
+*.log
+payload.json
+result*.json
+.probe/

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Directory Sync",
+    "description": "Copy whole directory trees from a source to a target on cron schedules: up to 30 rules with per-rule switches, plus a one-click sync button beside the restart button in the sidebar foot."
+  }
+}
